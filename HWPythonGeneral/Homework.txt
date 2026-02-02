@@ -1,0 +1,43 @@
+Question 2:
+a=[1 ,2 ,3]
+b=a
+b[0]=5
+print ( a )
+#What will this print?
+#This will print [5,2,3]
+
+Question 15:
+The difference between how the python runs vs how a compiled language runs is python runs dynamically meaning goes through the code sequentially and will make note of an error when it gets to the error code meanwhile the compiled language scans through the code before they execute it.
+
+Question 16:
+Pep8 is the style guide for python code in naming conventions and how the code is formatted and other suggestions to how to format code.
+
+Question 17:
+Python handles memory and garbage collection through storing in a private heap space which is managed by its memory manager which is automatic and doesn’t require managing it.
+
+Question 18:
+The difference between list and tuple is that lists and tuples are able to be changed and have more built in methods meanwhile tuples have less built in methods and cannot be changed along with being faster than lists. Lists are good for constantly changing lists and tuples are good for static data that isn’t changed but referenced.
+
+Question 19:
+You deal with errors using methods like using raise on a specific error and having an exception block in the code that will raise this code if the error specifically occurs.
+
+Question 20:
+This is a dunder method which compares two variables and returns true or false depending on if they are equal to each other.
+
+Question 21:
+Generators are special functions that return a specific set of items at one time; these are used in large data sets and to help with optimization.
+
+Question 22:
+The point of if name == "__main__" is it’s to be used when importing a script to execute a file directly or for testing a program to make sure it’s working correctly.
+
+Question 23:
+Yield is a function generator that returns an iterator dividing the function of a code into steps that execute as it’s called continuously.
+
+Question 24:
+The method resolution order is the sequence of order of classes hierarchy most seen in instances of multiple class inheritance.
+
+Question 25:
+In python multiple inheritance works where the class is able to inherit many different classes attributes and the method resolution order will decide which attributes are being used.
+
+Question 26:
+You install python packages by using the pip command in the terminal to download them.
