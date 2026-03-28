@@ -1,0 +1,44 @@
+from collections import deque
+class MyStack(object):
+
+    def __init__(self, stack=[]): #Time O(1) Space O(1)
+        self.queue = deque()
+
+
+    def push(self, x): #Time O(n) Space O(n)
+        """
+        :type x: int
+        :rtype: None
+        """
+        tmp = deque([x])
+        tmp.extend(self.queue)
+        self.queue = tmp
+        
+
+    def pop(self): #Time O(1) Space O(1)
+        """
+        :rtype: int
+        """
+        return self.queue.popleft()
+        
+
+    def top(self): #Time O(1) Space O(1)
+        """
+        :rtype: int
+        """
+        return self.queue[0]
+        
+
+    def empty(self): #Time O(1) Space O(1)
+        """
+        :rtype: bool
+        """
+        return len(self.queue) == 0
+
+
+# Your MyStack object will be instantiated and called as such:
+# obj = MyStack()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.empty()
